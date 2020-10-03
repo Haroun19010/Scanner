@@ -1,10 +1,21 @@
 package com.solwt;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-	// My first Pro...
+        /* Scanner */
 
-        System.out.println("Hello World 2020"+ "!!");
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your Age: ");
+        byte age = scanner.nextByte();
+        System.out.print("You are:" + age);
+
+        Scanner scannername = new Scanner(System.in);
+        System.out.print("\nEnter your Name: ");
+        String Name = scannername.nextLine();
+        System.out.print("You are: " + Name);
     }
 }
